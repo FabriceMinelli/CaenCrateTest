@@ -1,0 +1,346 @@
+[[crates]]
+module = 'SY4527'
+linktype = 'TCPIP'
+address = '192.168.0.201'
+username = 'admin'
+password = 'admin'
+
+[board.default]
+board = 8
+v = 12
+i = 2.5
+
+[bias.default]
+ov = 3.5
+v_offset_tofpet = 0.6
+i_max = 300.0
+
+[board.m1x1]
+crate = 0
+board = 8
+channel = 0
+
+[board.m1x2]
+crate = 0
+board = 8
+channel = 1
+
+[board.m1x3]
+crate = 0
+board = 8
+channel = 2
+
+[board.m1y1]
+crate = 0
+board = 8
+channel = 3
+
+[board.m1y2]
+crate = 0
+board = 8
+channel = 4
+
+[board.m1y3]
+crate = 0
+board = 8
+channel = 5
+
+[board.m2x1]
+crate = 0
+board = 8
+channel = 6
+
+[board.m2x2]
+crate = 0
+board = 8
+channel = 7
+
+[board.m2x3]
+crate = 0
+board = 8
+channel = 8
+
+[board.m2y1]
+crate = 0
+board = 8
+channel = 9
+
+[board.m2y2]
+crate = 0
+board = 8
+channel = 10
+
+[board.m2y3]
+crate = 0
+board = 8
+channel = 11
+
+[board.m3x1]
+crate = 0
+board = 8
+channel = 12
+
+[board.m3x2]
+crate = 0
+board = 8
+channel = 13
+
+[board.m3x3]
+crate = 0
+board = 8
+channel = 14
+
+[board.m3y1]
+crate = 0
+board = 8
+channel = 15
+
+[board.m3y2]
+crate = 0
+board = 8
+channel = 16
+
+[board.m3y3]
+crate = 0
+board = 8
+channel = 17
+
+[board.m4x1]
+crate = 0
+board = 8
+channel = 18
+
+[board.m4x2]
+crate = 0
+board = 8
+channel = 19
+
+[board.m4x3]
+crate = 0
+board = 8
+channel = 20
+
+[board.m4y1]
+crate = 0
+board = 8
+channel = 21
+
+[board.m4y2]
+crate = 0
+board = 8
+channel = 22
+
+[board.m4y3]
+crate = 0
+board = 8
+channel = 23
+
+[board.m5x1]
+crate = 0
+board = 8
+channel = 24
+
+[board.m5x2]
+crate = 0
+board = 8
+channel = 25
+
+[board.m5x3]
+crate = 0
+board = 8
+channel = 26
+
+[board.m5y1]
+crate = 0
+board = 8
+channel = 27
+
+[board.m5y2]
+crate = 0
+board = 8
+channel = 28
+
+[board.m5y3]
+crate = 0
+board = 8
+channel = 29
+
+[bias.m1x1]
+crate = 0
+board = 11
+channel = 0
+v_bd = 50.93
+
+[bias.m1x2]
+crate = 0
+board = 11
+channel = 1
+v_bd = 51.96
+
+[bias.m1x3]
+crate = 0
+board = 11
+channel = 2
+v_bd = 52.24
+
+[bias.m1y1]
+crate = 0
+board = 11
+channel = 3
+v_bd = 51.1
+
+[bias.m1y2]
+crate = 0
+board = 11
+channel = 4
+v_bd = 51.51
+
+[bias.m1y3]
+crate = 0
+board = 11
+channel = 5
+v_bd = 52.23
+
+[bias.m2x1]
+crate = 0
+board = 11
+channel = 6
+v_bd = 52.82
+
+[bias.m2x2]
+crate = 0
+board = 11
+channel = 7
+v_bd = 50.96
+
+[bias.m2x3]
+crate = 0
+board = 11
+channel = 8
+v_bd = 51.89
+
+[bias.m2y1]
+crate = 0
+board = 11
+channel = 9
+v_bd = 50.93
+
+[bias.m2y2]
+crate = 0
+board = 11
+channel = 10
+v_bd = 50.96
+
+[bias.m2y3]
+crate = 0
+board = 11
+channel = 11
+v_bd = 50.97
+
+[bias.m3x1]
+crate = 0
+board = 11
+channel = 12
+v_bd = 51.14
+
+[bias.m3x2]
+crate = 0
+board = 11
+channel = 13
+v_bd = 50.96
+
+[bias.m3x3]
+crate = 0
+board = 11
+channel = 14
+v_bd = 50.92
+
+[bias.m3y1]
+crate = 0
+board = 11
+channel = 15
+v_bd = 51.49
+
+[bias.m3y2]
+crate = 0
+board = 11
+channel = 16
+v_bd = 50.96
+
+[bias.m3y3]
+crate = 0
+board = 11
+channel = 17
+v_bd = 51.6
+
+[bias.m4x1]
+crate = 0
+board = 11
+channel = 18
+v_bd = 52.29
+
+[bias.m4x2]
+crate = 0
+board = 11
+channel = 19
+v_bd = 51.44
+
+[bias.m4x3]
+crate = 0
+board = 11
+channel = 20
+v_bd = 50.95
+
+[bias.m4y1]
+crate = 0
+board = 11
+channel = 21
+v_bd = 52.22
+
+[bias.m4y2]
+crate = 0
+board = 11
+channel = 22
+v_bd = 52.23
+
+[bias.m4y3]
+crate = 0
+board = 11
+channel = 23
+v_bd = 50.93
+
+[bias.m5x1]
+crate = 0
+board = 11
+channel = 24
+v_bd = 51.13
+
+[bias.m5x2]
+crate = 0
+board = 11
+channel = 25
+v_bd = 51.95
+
+[bias.m5x3]
+crate = 0
+board = 11
+channel = 26
+v_bd = 51.68
+
+[bias.m5y1]
+crate = 0
+board = 11
+channel = 27
+v_bd = 52.06
+
+[bias.m5y2]
+crate = 0
+board = 11
+channel = 28
+v_bd = 51.93
+
+[bias.m5y3]
+crate = 0
+board = 11
+channel = 29
+v_bd = 51.26
