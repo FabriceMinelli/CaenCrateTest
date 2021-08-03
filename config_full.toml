@@ -7,7 +7,7 @@ password = 'admin'
 
 [board.default]
 board = 8
-v = 12
+v = 4
 i = 2.5
 
 [bias.default]
