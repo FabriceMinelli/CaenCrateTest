@@ -79,7 +79,6 @@ class SndCaenManager():
         If daq = None, sets the OV on all the DAQ boards, otherwise give an array of strings
         """
         if daqs is None:
-            print('None')
             for daq in self.config['bias']:
                 if daq == 'default':
                     pass
@@ -200,7 +199,6 @@ class SndCaenManager():
                     crate, board, channel = self.getConfigProperty(daq, 'board')
                     if v is None:
                         set_channel_parameter(self.handles[crate], board, channel, 'V0Set', self.config['board']['default']['v'])
-                        print('oui oui')
                     else:
                         set_channel_parameter(self.handles[crate], board, channel, 'V0Set', v)                     
         else:
