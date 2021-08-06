@@ -182,9 +182,15 @@ class SndCaenManager():
                 crate, board, channel = self.getConfigProperty(daq, mode)
                 parameter_value = get_channel_parameter(self.handles[crate], board, channel, parameter)
                 parameter_unit = get_channel_parameter_property(self.handles[crate], board, channel, parameter, 'Unit')
-                print(f'DAQ {daq} parameter {parameter} information : {parameter_value} {parameter_unit}')        
+                print(f'DAQ {daq} parameter {parameter} information : {parameter_value} {parameter_unit}') 
 
-    
+
+    def getChannelParameter(self, parameter: str, mode: str, daq: str):
+        crate, board, channel = self.getConfigProperty(daq, mode)
+        parameter_value = get_channel_parameter(self.handles[crate], board, channel, parameter)
+        return parameter_value
+
+
     def setLV(self, v = None, daqs = None):
         """
         Allows to set the LV value to the DAQ boards.
